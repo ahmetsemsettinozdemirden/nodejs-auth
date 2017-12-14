@@ -1,0 +1,26 @@
+{
+  "name": "system-monitoring-auth",
+  "version": "0.0.1",
+  "private": true,
+  "description": "ecozum sistem odasi guvenlik projesi authentication servisi.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./test/test.js --timeout 10000 --exit"
+  },
+  "author": "Sems",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1"
+  }
+}
